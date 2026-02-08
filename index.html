@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyPortfolio | Zain Kautsar Ridha</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#" class="logo"><span style="color: white;">My</span>Portfolio.</a>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-list">
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#service">Keahlian</a></li> 
+                <li><a href="src/cv/contohcv.pdf">Resume</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <span class="greeting">Web Developer & Mahasiswa Informatika</span>
+                <h2 class="h1">Hai, saya Zain Kautsar</h2>
+                <p>Website ini dibuat sebagai bagian dari tugas mata kuliah Web Programming dan juga berfungsi
+                    sebagai portfolio pengembangan website pribadi.</p>
+                <div class="hero-actions">
+                    <a href="#contact" class="btn">Hubungi Saya</a>
+                    
+                    <div class="social-links">
+                        <a href="https://github.com/ZainKautsar-doc"><ion-icon name="logo-github"></ion-icon></a>
+                        <a href="https://www.linkedin.com/in/zain-kautsar-ridha-236047327/"><ion-icon name="logo-linkedin"></ion-icon></a>
+                        <a href="https://www.instagram.com/zainzenn/"><ion-icon name="logo-instagram"></ion-icon></a>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-wrapper">
+                    <img src="src/img/photo.webp" alt="Zain Kautsar">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container about-content">
+            <div class="about-image">
+                <div class="image-wrapper-bordered">
+                    <img src="src/img/photo.webp" alt="About Me">
+                </div>
+            </div>
+            <div class="about-text">
+                <h2>Tentang <span class="highlight">Saya</span></h2>
+                <p>Saya adalah mahasiswa informatika yang mempelajari mata kuliah Web Programming
+                    dengan fokus pada pengembangan website menggunakan HTML, CSS, dan JavaScript.
+                    Website ini dibuat sebagai bagian dari tugas akademik sekaligus
+                    sebagai media portfolio pribadi.</p>
+                <p>
+                    Melalui website portfolio ini, saya menampilkan profil singkat,
+                    kemampuan dasar pengembangan web, serta contoh struktur halaman
+                    yang menerapkan prinsip desain responsif dan penulisan kode yang rapi.
+                </p>
+                <a href="src/cv/contohcv.pdf" class="btn">Download CV</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="service" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2>Keahlian <span class="highlight">Saya</span></h2>
+                <p>Berikut adalah beberapa keahlian yang saya pelajari dan terapkan
+                    dalam mata kuliah Web Programming. Keahlian ini mencakup
+                    pengembangan website, desain antarmuka, serta pemahaman dasar
+                    tentang pembuatan aplikasi web.</p>
+            </div>
+            
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="icon-box">
+                        <ion-icon name="megaphone-outline"></ion-icon>
+                    </div>
+                    <h3>Digital Marketing</h3>
+                    <p>Memahami dasar digital marketing seperti optimasi konten website,
+                        struktur halaman yang SEO-friendly, serta pemanfaatan media digital
+                        untuk meningkatkan visibilitas website.</p>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="icon-box">
+                        <ion-icon name="globe-outline"></ion-icon>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>Mengembangkan website menggunakan HTML, CSS, dan JavaScript
+                        dengan memperhatikan struktur kode, desain responsif,
+                        dan praktik dasar pengembangan web yang baik.</p>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="icon-box">
+                        <ion-icon name="color-palette-outline"></ion-icon>
+                    </div>
+                    <h3>Desain Grafis Kreatif</h3>
+                    <p>Mampu membuat desain antarmuka sederhana untuk website
+                        dengan memperhatikan tata letak, warna, dan kenyamanan pengguna
+                        menggunakan prinsip UI dasar.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Kontak <span class="highlight">Saya</span></h2>
+                <p>Jika Anda tertarik untuk bekerja sama atau sekadar ingin
+                    berdiskusi, jangan ragu untuk menghubungi saya melalui formulir
+                    di bawah ini atau melalui media sosial yang tertera.</p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <span class="label">Alamat _</span>
+                        <span class="value">Kecamatan Tamansari, Kota Tasikmalaya, Jawa Barat<br>Indonesia</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="label">Telepon _</span>
+                        <span class="value">+62 895-1234-5678</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="label">Email _</span>
+                        <span class="value">zainkautsarridha@gmail.com</span>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <form action="#">
+                        <div class="form-group">
+                            <input type="text" placeholder="Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-info">
+                <div class="footer-logo">Tentang Website Ini</div>
+                <p>Website portfolio ini dibuat sebagai bagian dari tugas mata kuliah
+dan juga sebagai media untuk menampilkan profil serta kemampuan dasar
+pengembangan website.</p>
+            </div>
+            <div class="social-links">
+                <a href="https://github.com/ZainKautsar-doc"><ion-icon name="logo-github"></ion-icon></a>
+                <a href="https://www.linkedin.com/in/zain-kautsar-ridha-236047327/"><ion-icon name="logo-linkedin"></ion-icon></a>
+                <a href="https://www.instagram.com/zainzenn/"><ion-icon name="logo-instagram"></ion-icon></a>
+            </div>
+        </div>
+    </footer>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="src/js/script.js"></script>
+</body>
+</html>
