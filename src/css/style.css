@@ -151,7 +151,7 @@ section {
 }
 
 .hero-text h1 {
-    font-size: 4rem; /* Increased from 3.5rem */
+    font-size: 4rem; 
     line-height: 1.2;
     margin-bottom: 20px;
 
@@ -161,8 +161,8 @@ section {
 .hero-text p {
     color: var(--text-secondary);
     margin-bottom: 0;
-    max-width: 600px; /* Increased from 500px */
-    font-size: 1rem; /* Slightly larger text */
+    max-width: 600px; 
+    font-size: 1rem; 
 }
 
 .hero-actions {
@@ -364,6 +364,28 @@ section {
     margin-bottom: 15px;
 }
 
+/* Resume Section */
+.resume-container {
+    width: 100%;
+    max-width: 1000px; 
+    margin: 20px auto 0; 
+    border-radius: 10px;
+    overflow: hidden;
+    border: 2px solid var(--card-bg);
+    background-color: var(--card-bg);
+}
+
+.resume-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.resume-actions {
+    margin-top: 30px;
+    text-align: center;
+}
+
 /* Contact Section */
 .contact-content {
     display: flex;
@@ -397,7 +419,7 @@ section {
 
 .contact-form {
     flex: 1;
-    background-color: var(--bg-color); /* Matches background */
+    background-color: var(--bg-color); 
 }
 
 .form-group {
@@ -454,7 +476,7 @@ section {
     color: var(--text-secondary);
     font-size: 0.9rem;
     max-width: 500px;
-    margin: 0; /* Align left naturally in left-aligned container */
+    margin: 0; 
 }
 
 /* Mobile Responsiveness */
@@ -489,8 +511,7 @@ section {
     }
 
     .hero-content {
-        flex-direction: column-reverse; /* Image on top for mobile usually, but design has text left. Let's stack naturally or use reverse if desired. Design commonly puts image first on mobile. Let's keep text first for now or swap based on preference. Let's do Text First as per HTML order. */
-        /* Actually, usually Image is visual hook. Let's verify. standard is often Image Top. Let's leave as column which puts Text Top since Text is first in HTML. */
+        flex-direction: column-reverse; 
         gap: 30px;
     }
     
@@ -535,7 +556,7 @@ section {
     .footer-content {
         flex-direction: column;
         text-align: center;
-        gap: 30px; /* Add gap for stacked items */
+        gap: 30px; 
     }
 
     .footer-info {
@@ -546,6 +567,6 @@ section {
     }
 
     .footer p {
-        margin: 0 auto; /* Re-center paragraph text */
+        margin: 0 auto;
     }
 }
