@@ -9,10 +9,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="src/css/style.css">
 </head>
-
 <body>
-
-        <!-- Header -->
+    
+    <!-- Header -->
     <header class="header">
         <nav class="navbar container">
             <a href="#" class="logo"><span style="color: white;">My</span>Portfolio.</a>
@@ -31,31 +30,52 @@
         </nav>
     </header>
 
-    <!-- About Section -->
-    <section id="about" class="about">
-        <div class="container about-content">
-            <div class="about-image">
-                <div class="image-wrapper-bordered">
-                    <img src="src/img/photo.webp" alt="About Me">
-                </div>
+    <!-- Skills Section -->
+    <section id="service" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2>Keahlian <span class="highlight">Saya</span></h2>
+                <p>Berikut adalah beberapa keahlian yang saya pelajari dan terapkan
+                    dalam mata kuliah Web Programming. Keahlian ini mencakup
+                    pengembangan website, desain antarmuka, serta pemahaman dasar
+                    tentang pembuatan aplikasi web.</p>
             </div>
-            <div class="about-text">
-                <h2>Tentang <span class="highlight">Saya</span></h2>
-                <p>Saya adalah mahasiswa informatika yang mempelajari mata kuliah Web Programming
-                    dengan fokus pada pengembangan website menggunakan HTML, CSS, dan JavaScript.
-                    Website ini dibuat sebagai bagian dari tugas akademik sekaligus
-                    sebagai media portfolio pribadi.</p>
-                <p>
-                    Melalui website portfolio ini, saya menampilkan profil singkat,
-                    kemampuan dasar pengembangan web, serta contoh struktur halaman
-                    yang menerapkan prinsip desain responsif dan penulisan kode yang rapi.
-                </p>
-                <a href="src/cv/contohcv.pdf" class="btn">Download CV</a>
+            
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="icon-box">
+                        <ion-icon name="megaphone-outline"></ion-icon>
+                    </div>
+                    <h3>Digital Marketing</h3>
+                    <p>Memahami dasar digital marketing seperti optimasi konten website,
+                        struktur halaman yang SEO-friendly, serta pemanfaatan media digital
+                        untuk meningkatkan visibilitas website.</p>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="icon-box">
+                        <ion-icon name="globe-outline"></ion-icon>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>Mengembangkan website menggunakan HTML, CSS, dan JavaScript
+                        dengan memperhatikan struktur kode, desain responsif,
+                        dan praktik dasar pengembangan web yang baik.</p>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="icon-box">
+                        <ion-icon name="color-palette-outline"></ion-icon>
+                    </div>
+                    <h3>Desain Grafis Kreatif</h3>
+                    <p>Mampu membuat desain antarmuka sederhana untuk website
+                        dengan memperhatikan tata letak, warna, dan kenyamanan pengguna
+                        menggunakan prinsip UI dasar.</p>
+                </div>
             </div>
         </div>
     </section>
-
-        <!-- Footer -->
+    
+    <!-- Footer -->
     <footer class="footer">
         <div class="container footer-content">
             <div class="footer-info">
@@ -72,8 +92,10 @@
         </div>
     </footer>
 
+
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <script src="src/js/script.js"></script>
+
 </body>
 </html>
